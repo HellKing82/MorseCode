@@ -46,7 +46,7 @@ public class Logic {
         morse.put("8", "---.. ");
         morse.put("9", "----. ");
         morse.put("0", "----- ");
-        morse.put(" ", "|");
+        morse.put(" ", "| ");
         morse.put(",", "--..-- ");
         morse.put("?", "..--.. ");
         morse.put("!", "-.-.-- ");
@@ -97,7 +97,7 @@ public class Logic {
         morse.put(".-.-.-", "*");
     }
 
-    public String getMorseCode(String input) {
+    public String getTranslate(String input) {
         String Inputout = "";
 
         if (input.contains(".") || (input.contains("-"))) {

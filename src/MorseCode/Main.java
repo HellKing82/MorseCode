@@ -18,6 +18,6 @@ public class Main {
         Logic InputLogic = new Logic();
         System.out.println();
         System.out.println("Your translated input is: ");
-        text = InputLogic.getMorseCode(text);
+        text = InputLogic.getTranslate(text);
     }
 }

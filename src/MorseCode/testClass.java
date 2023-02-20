@@ -19,7 +19,7 @@ public class testClass {
 
         String testData = "a";
         String expected = ".- ";
-        String actual = _logic.getMorseCode(testData);
+        String actual = _logic.getTranslate(testData);
 
         Assert.assertEquals(expected, actual);
 
@@ -27,11 +27,11 @@ public class testClass {
 
     @Test
 
-    public void outPrintEnglish() {
+    public void OutPrintEnglish() {
 
         String testData = ".----";
         String expected = "1";
-        String actual = _logic.getMorseCode(testData);
+        String actual = _logic.getTranslate(testData);
 
         Assert.assertEquals(expected, actual);
     }
